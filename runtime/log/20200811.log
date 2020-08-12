@@ -1,0 +1,212 @@
+---------------------------------------------------------------
+
+[2020-08-11T15:19:19+08:00] 127.0.0.1 GET www.qyp.com/admin
+[运行时间：0.051574s] [吞吐率：19.39req/s] [内存消耗：3,090.52kb] [文件加载：137]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'cps_qyp'[E:\devlop\phpProjects\qyp\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+
+[2020-08-11T15:27:41+08:00] 127.0.0.1 GET www.qyp.com/admin
+[运行时间：0.074609s] [吞吐率：13.40req/s] [内存消耗：4,483.30kb] [文件加载：171]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.qyp.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\devlop\phpProjects\qyp\public\..\application\common\view\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000895s ] mysql:host=127.0.0.1;port=27069;dbname=cps_qyp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.006107s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Config' ORDER BY `id` DESC [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.005548s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type`,`options` FROM `yzn_config` WHERE  ( status='1' ) ORDER BY `listorder`,`id` DESC [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.005364s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yzn_hooks` WHERE  `status` = 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.005200s ]
+[ sql ] [ SQL ] INSERT INTO `yzn_adminlog` (`uid` , `status` , `info` , `get` , `ip` , `create_time`) VALUES (0 , 0 , '提示语:请先登陆' , '/admin' , '127.0.0.1' , 1597130861) [ RunTime:0.000416s ]
+---------------------------------------------------------------
+
+[2020-08-11T15:27:43+08:00] 127.0.0.1 GET www.qyp.com/admin/index/login.html
+[运行时间：0.051222s] [吞吐率：19.52req/s] [内存消耗：4,139.56kb] [文件加载：161]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e3f3d8r4ndj843n3k8ssqtsnqo',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.qyp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.qyp.com/admin',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\devlop\phpProjects\qyp\application\admin\view\index\login.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011535s ] mysql:host=127.0.0.1;port=27069;dbname=cps_qyp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.005710s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yzn_hooks` WHERE  `status` = 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+
+[2020-08-11T15:27:44+08:00] 127.0.0.1 GET www.qyp.com/api/checkcode/getverify/font_size/18/imageW/130/imageH/38.html
+[运行时间：0.043835s] [吞吐率：22.81req/s] [内存消耗：3,796.16kb] [文件加载：149]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e3f3d8r4ndj843n3k8ssqtsnqo',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.qyp.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.qyp.com/admin/index/login.html',
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'font_size' => '18',
+  'imageW' => '130',
+  'imageH' => '38',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=27069;dbname=cps_qyp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.005321s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yzn_hooks` WHERE  `status` = 1 [ RunTime:0.000341s ]
+---------------------------------------------------------------
+
+[2020-08-11T15:27:44+08:00] 127.0.0.1 GET www.qyp.com/admin/index/login.html
+[运行时间：0.043074s] [吞吐率：23.22req/s] [内存消耗：3,965.95kb] [文件加载：158]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=e3f3d8r4ndj843n3k8ssqtsnqo',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.qyp.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\devlop\phpProjects\qyp\application\admin\view\index\login.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000588s ] mysql:host=127.0.0.1;port=27069;dbname=cps_qyp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.005377s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yzn_hooks` WHERE  `status` = 1 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+
+[2020-08-11T15:27:44+08:00] 127.0.0.1 GET www.qyp.com/api/checkcode/getverify/font_size/18/imageW/130/imageH/38.html
+[运行时间：0.039469s] [吞吐率：25.34req/s] [内存消耗：3,796.34kb] [文件加载：149]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e3f3d8r4ndj843n3k8ssqtsnqo',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.qyp.com/admin/index/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.qyp.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'font_size' => '18',
+  'imageW' => '130',
+  'imageH' => '38',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000723s ] mysql:host=127.0.0.1;port=27069;dbname=cps_qyp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.005704s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yzn_hooks` WHERE  `status` = 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+
+[2020-08-11T18:36:50+08:00] 127.0.0.1 GET www.qyp.com/admin/index/login.html
+[运行时间：0.052000s] [吞吐率：19.23req/s] [内存消耗：3,966.02kb] [文件加载：158]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=e3f3d8r4ndj843n3k8ssqtsnqo',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.qyp.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\devlop\phpProjects\qyp\application\admin\view\index\login.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001089s ] mysql:host=127.0.0.1;port=27069;dbname=cps_qyp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.006218s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yzn_hooks` WHERE  `status` = 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+
+[2020-08-11T18:36:50+08:00] 127.0.0.1 GET www.qyp.com/api/checkcode/getverify/font_size/18/imageW/130/imageH/38.html
+[运行时间：0.042755s] [吞吐率：23.39req/s] [内存消耗：3,796.34kb] [文件加载：149]
+[ info ] [ LANG ] E:\devlop\phpProjects\qyp\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e3f3d8r4ndj843n3k8ssqtsnqo',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.qyp.com/admin/index/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.qyp.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'font_size' => '18',
+  'imageW' => '130',
+  'imageH' => '38',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000871s ] mysql:host=127.0.0.1;port=27069;dbname=cps_qyp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.006699s ]
+[ sql ] [ SQL ] SELECT `name`,`addons`,`modules` FROM `yzn_hooks` WHERE  `status` = 1 [ RunTime:0.000575s ]

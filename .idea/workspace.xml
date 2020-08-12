@@ -11,6 +11,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
@@ -51,6 +54,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fwWmSMiBzL2fxNo9K0jeYVDR3u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,11 +79,25 @@
       <option name="presentableId" value="Default" />
       <updated>1597129793900</updated>
       <workItem from="1597129794937" duration="3205000" />
-      <workItem from="1597197923844" duration="15000" />
+      <workItem from="1597197923844" duration="317000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="832" y="417" key="Github.ShareDialog" timestamp="1597198147215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597198147215" />
+    <state x="596" y="224" key="Github.UntrackedFilesDialog" timestamp="1597198166555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="596" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597198166555" />
+    <state x="759" y="203" key="svn.repositoryBrowser" timestamp="1597198136211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="203" key="svn.repositoryBrowser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597198136211" />
   </component>
 </project>

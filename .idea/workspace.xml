@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343bbd99-5693-46c9-bf24-706d8397e2fd" name="Default Changelist" comment="" />
+    <list default="true" id="343bbd99-5693-46c9-bf24-706d8397e2fd" name="Default Changelist" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +74,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="343bbd99-5693-46c9-bf24-706d8397e2fd" name="Default Changelist" comment="" />
@@ -79,12 +85,24 @@
       <option name="presentableId" value="Default" />
       <updated>1597129793900</updated>
       <workItem from="1597129794937" duration="3205000" />
-      <workItem from="1597197923844" duration="317000" />
+      <workItem from="1597197923844" duration="628000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1597198390246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597198390246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="832" y="417" key="Github.ShareDialog" timestamp="1597198147215">
@@ -95,6 +113,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="596" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597198166555" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597198392359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597198392359" />
     <state x="759" y="203" key="svn.repositoryBrowser" timestamp="1597198136211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
